@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   text-align: center;
-}
+font-family: Oswald;}
 
 header {
   background-color: black;
@@ -51,7 +51,7 @@ body {
   padding: 20px;
 }
 
-.msg-container {
+#msg {
   background-color: black;
   color: white;
   display: inline-block;
