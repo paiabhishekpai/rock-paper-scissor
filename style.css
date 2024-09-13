@@ -6,10 +6,10 @@
 
 header {
   background-color: black;
-  height: 10vh;
+  height: 15vh;
 }
 .head {
-  line-height: 10vh;
+  line-height: 15vh;
   color: white;
 }
 body {
@@ -26,11 +26,17 @@ body {
 
 .choice {
   border-radius: 50%;
+ padding: 10px;
+}
+
+.choice:hover{
+  cursor: pointer;
+  background-color: black;
 }
 
 .choice img {
-  height: 150px;
-  width: 150px;
+  height: 160px;
+  width: 160px;
   object-fit: cover;
   border-radius: 50%;
 }
